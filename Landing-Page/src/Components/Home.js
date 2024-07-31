@@ -17,14 +17,12 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-          Empowering Scientific Research and Collaboration
-          </h1>
+          Providing a platform for scientific publishing, researcher collaboration, and innovation.
+          </h1><br></br>
           <p className="primary-text">
-          Connecting Researchers, Sharing Knowledge, and Driving Innovation
-          </p>
-          <button className="secondary-button" onClick={handleSignUpClick}
-          onMouseEnter={handleSignUpClick}>
-            Join Us <FiArrowRight />{" "}
+          Empowering Scientific Research and Collaboration
+          </p><br></br>
+          <button className="secondary-button" onClick={handleSignUpClick}>Join Us <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">

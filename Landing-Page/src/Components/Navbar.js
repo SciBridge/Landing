@@ -54,8 +54,7 @@ const Navbar = () => {
         <a href="#Tools">Tools</a>
         <a href="#Research">Research</a>
         <a href="#Contact">Contact</a>
-        <button className="primary-button" onClick={handleSignUpClick}
-          onMouseEnter={handleSignUpClick}>Sign Up</button>
+        <button className="primary-button" onClick={handleSignUpClick}>Sign Up</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

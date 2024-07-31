@@ -2,7 +2,6 @@ import React from "react";
 import Brand from "../Assets/Brand.png";
 import { BsTwitter } from "react-icons/bs";
 import { SiLinkedin } from "react-icons/si";
-import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
@@ -16,14 +15,12 @@ const Footer = () => {
         <div className="footer-icons">
           <BsTwitter />
           <SiLinkedin />
-          <BsYoutube />
           <FaFacebookF />
         </div>
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
           <span>Help</span>
-          <span>Carrers</span>
           <span>Feedback</span>
         </div>
         <div className="footer-section-columns">
